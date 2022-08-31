@@ -20,8 +20,11 @@ var twoSum = function(nums, target) {
             map.set(nums[i], i);
         }
     }
-	return [];
-    
+	return [];   
 };
 // @lc code=end
 
+
+// @after-stub-for-debug-begin
+module.exports = twoSum;
+// @after-stub-for-debug-end
